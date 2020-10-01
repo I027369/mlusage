@@ -1,0 +1,7 @@
+applications:
+- name: cxaimlusage
+  path: target/mlusage-0.0.1-SNAPSHOT.war
+  buildpack: java_buildpack
+  memory: 1024M
+  services:
+    - mlusagedata
